@@ -1,13 +1,13 @@
-# Bank Customer Attrition Prediction
+# Bank Customer Churn Prediction
 
 ## Problem Statement
-Service-oriented businesses, such as banks, must address the challenge of customer attrition, where clients switch to competitors. Identifying the key factors that drive a customer's decision to leave is crucial for improving retention.
+Customer attrition, also known as churn, is a significant issue for service-oriented businesses like banks. Customers switching to competing institutions can lead to substantial revenue loss. As a result, banks must proactively identify at-risk customers to implement retention strategies. Understanding the key factors influencing a customer's decision to leave is crucial for minimizing churn and enhancing customer loyalty. Predicting customer churn effectively allows businesses to take preventive action, reducing the risk of losing valuable customers.
 
 ## Objective
-The goal of this project is to build a neural network-based classifier that can determine whether a customer will leave the bank or not.
+The goal of this project is to build a neural network-based classifier that can determine whether a customer will leave the bank.
 
 ## Data
-The dataset contains various features related to bank customers, which are used to predict whether they are likely to leave the bank or not.
+The dataset contains various features related to bank customers, which are used to predict whether they are likely to leave the bank.
 
 ### Data Dictionary:
 | Feature        | Description                                                                 |
@@ -26,15 +26,13 @@ The dataset contains various features related to bank customers, which are used 
 | `isActiveMember` | Binary indicator for active usage of bank products and services             |
 | `Exited`         | Whether the customer left the bank (0 = No, 1 = Yes)                        |
 
-## Approach
-We aim to build a neural network model that uses customer data to predict whether a customer will leave the bank within six months.
 
-### Steps:
-1. Data Preprocessing
-2. Model Building (Neural Network Classifier)
-3. Evaluation of the Model's Performance
+### Project Overview
 
-## Installation and Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sivara12/Banks-customer-prediction.git
+This project focuses on predicting bank customer churn using neural networks. We explored multiple models and optimizers to identify the best-performing model for this classification task. Churn prediction allows banks to take preemptive actions to retain at-risk customers, reducing potential revenue loss. 
+
+
+![image](https://github.com/user-attachments/assets/126b1f98-93f8-43c6-8114-327562102986)
+
+
+
